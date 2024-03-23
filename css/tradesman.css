@@ -1,0 +1,88 @@
+.settings
+{
+  
+  width: 600px;
+  margin: 0 auto; /* Center horizontally */
+  padding: 20px;
+  box-sizing: border-box; /* Padding included in width */
+  position: absolute;
+  margin-right: 20px;
+  
+ 
+  background: #fff; /* White background */
+  
+}
+.settings .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Adjust spacing between form groups */
+  }
+  
+  .settings .form-group .form_label {
+    width: 300px; /* Set a fixed width for labels */
+    min-width: 150px; /* Ensure labels do not shrink */
+    text-align: right;
+    margin-right: 10px; /* Spacing between label and input */
+  }
+  
+  .settings input[type="text"], 
+  .settings input[type="file"] {
+    flex-grow: 1; /* Input fields take up remaining space */
+  }
+  
+  .settings input[type="file"] {
+margin-left: 10px;
+}
+.form_label{
+    width: 10000px;
+    
+    padding-right: 45px;
+}
+.profile-photo-container {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Ensure width and height are the same for a perfect circle */
+    border: 1px solid #ddd; /* Style the border as needed */
+    border-radius: 50%; /* This makes the container round */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Ensures nothing goes outside the circle */
+    margin: auto; /* Centers the container horizontally if it's a block-level element */
+    margin-bottom:20px;
+    margin-left: 300px;;
+    cursor: pointer;
+}
+.profile-photo-container:hover .upload-prompt {
+    display: block; /* Show upload prompt on hover */
+}
+
+.profile-photo-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintains aspect ratio and covers the container */
+}
+
+
+.profile-photo-container .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+    color: white;
+    font-size: 20px; /* Adjust as needed */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: none; /* Hide by default */
+}
+
+.profile-photo-container:hover .overlay {
+    display: flex; /* Show on hover */
+}
+
+
+
+

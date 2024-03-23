@@ -1,0 +1,154 @@
+body, .cards-container {
+    overflow-x: hidden; /* Hide horizontal overflow */
+}
+.datalist-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Additional styling for labels and buttons if needed */
+label, button {
+    margin-top: 15px;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px; /* Adjust as needed */
+}
+
+.search {
+    margin-right: 10px; /* Space between inputs and button */
+    width: 300px; /* Adjust width as needed */
+    padding: 10px;
+    height: 43px;
+    border: 1px solid #ddd;
+    color: gray;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.search-button {
+    padding: 10px 15px;
+    height: 43px; /* Match height of inputs */
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background-color: #f0f0f0; /* Adjust color as needed */
+    cursor: pointer;
+}
+
+.card {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Adding shadow for depth */
+    transition: 0.3s; /* Smooth transition for hover effect */
+    border-radius: 10px; /* Rounded corners */
+    width: 450px;
+    height: 400px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3); /* Hover effect */
+}
+
+.card-body {
+    padding: 15px; /* More padding inside the card */
+    width: 300px;
+    height: 300px;
+}
+
+.card-title {
+    color: #007bff; /* Stylish font color for title */
+    margin-bottom: 24px; /* Spacing below the title */
+    font-size: large;
+}
+
+.btn-card {
+    background-color: #007bff; /* Consistent color for the button */
+    border: none;
+    border-radius: 5px; /* Rounded corners for the button */
+    margin-left: 270px;
+    right: 10px;
+    width: 150px;
+    height: 35px;
+    padding: 10px;
+    margin-top: 5px;
+   
+}
+
+.btn-card:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+.badge-success {
+    color: white;
+    background-color: #28a745; /* Green background */
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 0.75em;
+    position: absolute;
+    top: 20px;
+    margin-left: 300px;
+}
+@media (max-width: 768px) {
+    .container, .card, .any-other-class {
+        width: 100%; /* Adjust width for mobile devices */
+        padding: 10px; /* Adjust padding */
+        margin: 0; /* Adjust margin */
+    }
+    /* Add other responsive styles as needed */
+}
+.cards-container {
+    height: 700px; /* Adjust the height as needed */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 10px;
+}
+.custom-options {
+    position: absolute;
+    width: 400px;
+    border: 1px solid #ddd;
+    background-color: white;
+    z-index: 10;
+  }
+
+  .card-info {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    margin-bottom: 5px; /* Spacing between each info line */
+}
+
+.card-label {
+    font-weight: bold;
+    width: 120px; /* Fixed width for labels */
+    display: inline-block; /* Ensures the label respects the width */
+}
+
+.booking-button{
+    padding: 10px 15px;
+    height: 43px; /* Match height of inputs */
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background-color: #f0f0f0; /* Adjust color as needed */
+    cursor: pointer;
+    margin-left: 650px;
+    width: 100px;
+
+}
+
+/* Home Page Styleing */
+
+.custom-dropdown{
+    padding: 10px 15px;
+    height: 43px; /* Match height of inputs */
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background-color: #f0f0f0; /* Adjust color as needed */
+    cursor: pointer;
+    width: 300px;
+    overflow-y: auto; /* Enable vertical scrolling */
+
+  }
+  
+
+
+
