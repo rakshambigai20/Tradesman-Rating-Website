@@ -19,10 +19,7 @@ This is my first website developed as part of my academic coursework. The websit
     - [6.1 Make Booking](#61-make-booking)
     - [6.2 Cancel Booking](#62-cancel-booking)
   - [7. Rating](#7-rating)
-- [Steps to Install and Set Up](#steps-to-install-and-set-up)
-- [Steps to Run the Application](#steps-to-run-the-application)
 - [Screenshots](#screenshots)
-- [License](#license)
 
 ---
 
@@ -133,7 +130,6 @@ Customers can:
    `/Backend/class/dbh.inc`
 9. Update the database connection settings to match local setup (Host, Username, Password, Database) 
    
-
 ---
 
 ## Steps to Run the Application
